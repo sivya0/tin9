@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-size: 22px;
+} 
+
+p.validator {
+  font-size: 15px;
+  color: red;
+}
+
+.item-button {
+  margin-right: 5px;
+}
+
+.navbar {
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+  padding: 20px;
+  /* display: flex; */
+  align-items: center;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #f2f2f2;
+}
+.navbar a:active {
+  color: #320dec;
+}
+
+ul {
+  color: #f2f2f2;
+  list-style-type: none;
+}
+
+li {
+  margin: 15px 0;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  transition: background-color 0.3s;
+  border-radius: 25px;
+  padding: 7px;
+}
+
+li a.go-to-post:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.previous-link,
+.next-link {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f2f2f2;
+  transition: background-color 0.3s;
+}
+
+.previous-link:hover,
+.next-link:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.pagination-active {
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button {  
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #333;
+  color: #f2f2f2;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
